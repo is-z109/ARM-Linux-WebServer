@@ -7,7 +7,7 @@
 - 基于 Linux Socket API 实现 TCP 服务器
 - 使用 `epoll` + `EPOLLET`（边缘触发）处理网络连接
 - 非阻塞监听 Socket
-- 固定大小线程池处理客户端请求
+- 自定义大小线程池处理客户端请求
 - HTTP/1.1 请求解析
 - 支持 GET / POST 请求
 - 支持 `application/x-www-form-urlencoded` 表单解析
